@@ -2,13 +2,7 @@ export const getSongs = async (
   bpm: string
 ): Promise<{ songId: string; artistName: string; genre: string[] }[]> => {
   const res = await fetch(
-    `api/tempo/?api_key=${process.env.REACT_APP_API_KEY}&bpm=${bpm}`,
-    {
-      method: "GET",
-      headers: {
-        "Access-Control-Allow-Origin": "*"
-      }
-    }
+    `api/tempo/?api_key=${process.env.REACT_APP_API_KEY}&bpm=${bpm}`
   );
 
   const json = await res.json();
