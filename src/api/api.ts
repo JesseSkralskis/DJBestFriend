@@ -28,7 +28,7 @@ export const searchArtist = async (artist: string) => {
 
 export const getSong = async (id: string) => {
   const res = await fetch(
-    `https://api.getsongbpm.com/song/?api_key=${process.env.REACT_APP_API_KEY}&id=${id}`
+    `/song/?api_key=${process.env.REACT_APP_API_KEY}&id=${id}`
   );
 
   const json = await res.json();
