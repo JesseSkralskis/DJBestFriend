@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && echo '/tempo/*  https://api.getsongbpm.com/tempo/:splat  200'  | cat >build/_redirects && echo /song/* https://api.getsongbpm.com/song/:splat 200  |  cat >build/_redirects",
+    "build": "react-scripts build && echo '/tempo/*  https://api.getsongbpm.com/tempo/:splat  200' &&  '/song/* https://api.getsongbpm.com/song/:splat 200'  | cat >build/_redirects",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
