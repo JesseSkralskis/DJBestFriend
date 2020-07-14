@@ -1,1 +1,1 @@
-/api/*  https://api.getsongbpm.com/api/:splat  200
+/tempo/*  https://api.getsongbpm.com/tempo/:splat  200
