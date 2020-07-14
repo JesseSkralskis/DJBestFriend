@@ -1,0 +1,27 @@
+.searchBar_container {
+  height: 12vh;
+  width: 100vw;
+  background: #a6a2a2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchBar_container input {
+  height: 2rem;
+  width: 10rem;
+}
+.searchBar_container button {
+  margin-top: 1rem;
+  font-weight: 900;
+  height: 2rem;
+  border-radius: 5px;
+  background: #847577;
+  color: #fbfbf2;
+}
+
+.searchBar_container input::placeholder {
+  font-size: 15px;
+  color: black;
+}
